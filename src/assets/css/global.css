@@ -1,0 +1,28 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .home-container, .editor-page, .code-generator, .sidebar, .diagram-editor {
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .start-button {
+    background: linear-gradient(45deg, #4CAF50 30%, #45a049 90%);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    box-shadow: 0 3px 15px rgba(76, 175, 80, 0.3);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .start-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(76, 175, 80, 0.5);
+  }
+  
